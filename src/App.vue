@@ -15,7 +15,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 text-black bg-white dark:text-white dark:bg-black bg-opacity-60 backdrop-blur-md">
+  <header class="sticky top-0 z-50 text-black bg-white dark:text-white dark:bg-black bg-opacity-60 dark:bg-opacity-60 backdrop-blur-md">
     <div class="container px-4 py-1.5 lg:py-2 mx-auto flex items-center justify-between">
       <MobileMenu />
 
