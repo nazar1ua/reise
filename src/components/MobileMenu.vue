@@ -23,7 +23,7 @@ const nav: Ref<Nav[]> = ref([
 
 <template>
   <Popover v-slot="{ open, close }" class="flex">
-    <PopoverButton class="relative z-20 rounded focus-visible:outline-none focus-visible:ring focus-visible:ring-zinc-400 dark:focus-visible:ring-zinc-700">
+    <PopoverButton class="relative z-20 rounded focus:outline-none">
       <XMarkIcon v-if="open" class="w-6 h-6"/>
       <Bars3Icon v-else class="w-6 h-6"/>
     </PopoverButton>
